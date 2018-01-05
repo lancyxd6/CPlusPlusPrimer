@@ -24,3 +24,14 @@ g++ -o main APCluster.o example.o
 
 
 g++ test_111.cpp -std=c++11 //编译c++ 11新特性
+
+
+
+//不同系统输入文件结束的标志
+windows平台，即dos命令行，输入文件结束标志的方法为CTRL+Z
+Unix, Linux,Mac等，输入文件结束标志方法为CTRL+D
+
+//不同系统换行符的标志()
+DOS/Windows系统采用CRLF(即回车+换行)表示下一行
+Linux/UNIX系统采用LF表示下一行
+MAC系统采用CR表示下一行
